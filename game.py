@@ -1,9 +1,9 @@
 from player import Player
 class Game:
-    def __init__(self,id):
+    def __init__(self,iden):
         self.numberOfplayers = 0
         self.playerlist=[]
-        self.gameID =0
+        self.gameID =iden
         self.roundNumber =0
         self.hakem =Player(0,"beytol")
         self.hokm =""

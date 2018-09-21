@@ -6,7 +6,6 @@ class Game2(game.Game):
         super(Game2,self).__init__(iden)
         self.numberOfplayers=2
         self.nothakem= Player(0,"patoxi")
-
     def chooseHakem(self):
         if self.roundNumber==1:
             r = randint(0,1)
@@ -61,3 +60,4 @@ class Game2(game.Game):
         print(self.outOfGameCards)
         self.hakem.showCards()
         self.notHakem.showCards()
+
